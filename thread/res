@@ -1,0 +1,33 @@
+Starting threads...
+Producer Consumeradding  got a value0 to queue
+producer succed<built-in function id>
+
+Consumer got a value Producer adding 1 to queue
+producer succed
+<built-in function id>
+Producer adding 2 to queue
+producer succed
+Consumer got a value <built-in function id>
+Producer adding 3 to queue
+producer succed
+Consumer got a value <built-in function id>
+Producer adding 4 to queue
+producer succed
+Consumer got a value <built-in function id>
+Producer adding 5 to queue
+producer succed
+Consumer got a value <built-in function id>
+Producer adding 6 to queue
+producer succed
+Consumer got a value <built-in function id>
+Producer adding 7 to queue
+producer succed
+Consumer got a value <built-in function id>
+Producer adding 8 to queue
+producer succed
+Consumer got a value <built-in function id>
+Producer adding 9 to queue
+producer succed
+Consumer got a value <built-in function id>
+Producer Finished
+Consumer got a value
