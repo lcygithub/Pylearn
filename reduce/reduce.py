@@ -1,6 +1,8 @@
 #!/usr/bin/python
 #-*- coding:utf8-*-
 print reduce(lambda x, y: x+y, [1, 2, 3, 4, 5])
+print reduce(lambda x, y: x+y,range(1,6))
+print reduce(lambda x, y: x+y,range(1,6),10)
 '''
 Type:		builtin_function_or_method
 Base Class:	<type 'builtin_function_or_method'>
