@@ -1,18 +1,15 @@
 #-*- coding:utf8-*-
-import Queue
+from collections import deque
+q = deque(range(10))
+q.append(11)
+q.appendleft(12)
+print q
+q.pop()
+print q
 
-def worker():
-	while True:
-		item = q.get()
-		do_work(item)
-		q.task_done()
-q = Queue
-for i in range(num_worker_threads):
-	t = Thread(target = worker)
-	t.setDaemon(True)
-	t.start()
-
-for item in source():
-	q.put(item)
-
-q.join()
+q.popleft()
+print q
+q.rotate(3)
+print q
+q.rotate(-1)
+print q
