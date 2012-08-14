@@ -1,13 +1,9 @@
 #!/usr/bin/python
 #-*- coding:utf8-*-
-
-
-2
-
 '''
 
     OS routines for Mac, NT, or Posix depending on what system we're on.
-    
+
     This exports:
       - all functions from posix, nt, os2, or ce, e.g. unlink, stat, etc.
       - os.path is one of the modules posixpath, or ntpath
@@ -21,7 +17,7 @@
       - os.linesep is the line separator in text files ('\r' or '\n' or '\r\n')
       - os.defpath is the default search path for executables
       - os.devnull is the file path of the null device ('/dev/null', etc.)
-    
+
     Programs that import and use 'os' stand a better chance of being
     portable between different platforms.  Of course, they must then
     only use functions that are defined by all platforms (e.g., unlink
